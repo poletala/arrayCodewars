@@ -14,20 +14,9 @@ function sum (arr) {
 			return  arr.reduce((acc, value) => acc + value)
 		} else {
 			console.error(`Element '${arr[i]}' must be a number`)
+			return
 		}
 	}
 }
-// Отдельно проверка на тип данных. Как записать короче? 
-//   function elementCheck (arr) {
-//     for (let i = 0; i < arr.length; i++) {
-// 		if (typeof arr[i] === 'number') {
-// 			return arr
-// 		} else {
-// 			console.error(`Element ${arr[i]} must be a number`)
-// 		}
-// 	}
-// }
-// elementCheck(initialArray)
-
 const result = sum(initialArray) 
 console.log(result) 
