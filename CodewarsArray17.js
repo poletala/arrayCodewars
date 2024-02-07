@@ -13,7 +13,6 @@ function lessThanAverage(arr,a) {
     }
 }
 
-// Почему не работает проверка на тип данных?
 const result = lessThanAverage(initialArray,a) 
 console.log(result)
 
