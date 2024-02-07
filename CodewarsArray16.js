@@ -6,7 +6,7 @@ const initialArray = [
 	{ "name": "Abiba", "age": 35 },
 ]
 
-function unique (arr) {
+function unique(arr) {
     const allNames = arr.map(obj => obj.name);
     let uniqueNames = allNames.filter((item, i, arr) => arr.indexOf(item) !== i);
     return initialArray.filter(initialArrayItem => !uniqueNames.includes(initialArrayItem.name))
