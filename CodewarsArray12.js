@@ -3,7 +3,7 @@ const initialArray = [
 	{ "name": "Aboba", "age": 16 },
 	{ "name": "Abiba", "age": 35 },
 ]
-function sortByAge (arr) {
+function sortByAge(arr) {
     let arrayAge = arr.map(a => a.age);
         for (let i = 0; i < arr.length; i++) {
             if (typeof arrayAge[i] === 'number') {
