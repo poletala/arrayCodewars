@@ -1,6 +1,6 @@
 const initialArray = ['Say', 'hello', 'to', 'World']
 
-function uppercaseOnly (arr) {
+function uppercaseOnly(arr) {
     for (let i = 0; i < arr.length; i++) {
         if (typeof arr[i] === 'string') {
             let string = arr.reduce((acc, value, index) => {
@@ -12,5 +12,4 @@ function uppercaseOnly (arr) {
          else {return}
     }
 }
-
 console.log(uppercaseOnly(initialArray))
