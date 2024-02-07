@@ -13,6 +13,5 @@ function greaterThanAverage(arr,average) {
         }
     }
 }
-// почему не работает проверка на тип? 
 const result = greaterThanAverage(initialArray, a)
 console.log(result) 
