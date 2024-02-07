@@ -5,18 +5,11 @@ const initialArray = [
 ]
 
 function sortByAge(arr) {
-let arrayAge = arr.map(a => a.age);
-    for (let i = 0; i < arr.length; i++) {
-		if (typeof arrayAge[i] === 'number') {
-			let arrNew = arr.sort((a,b) => {
-                return a.age - b.age
-            })
-            return arrNew
-		} else {
-			console.error('Age must be a number')
-            return
-		}
-	}
+	let arrayAge = arr.map(a => a.age);
+	let arrNew = arr.sort((a,b) => {
+    return a.age - b.age
+  })
+  return arrNew
 }
 const result = sortByAge(initialArray) 
 console.log(result) 
