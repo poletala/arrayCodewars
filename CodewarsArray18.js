@@ -1,7 +1,7 @@
 const initialArray1 = [
 	{ "name": "Viktor", "age": 24 },
 	{ "name": "Abiba", "age": 35 },
-	{ "name": "Viktor", "age": 35 git status},
+	{ "name": "Viktor", "age": 35},
 	{ "name": "Abiba", "age": 35 },
 ]
 
@@ -11,7 +11,7 @@ const initialArray2 = [
 	{ "name": "Abiba", "age": 35 },
 ]
 
-function unique (arr1, arr2) {
+function unique(arr1, arr2) {
     
     let arrNew = []
     for (let i=0;i<arr1.length;i++)  {
@@ -28,5 +28,4 @@ function unique (arr1, arr2) {
 const result = unique(initialArray1, initialArray2) 
 console.log(result)
 
-// я сдаюсь
 
